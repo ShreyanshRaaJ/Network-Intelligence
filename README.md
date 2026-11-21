@@ -1,8 +1,8 @@
-# NEXTRACE — Network Intelligence
+# NETSCOPE — Network Intelligence
 
-NEXTRACE is a network monitoring and analysis dashboard for inspecting traffic on interfaces you are authorized to monitor. It uses the locally installed Wireshark/TShark tools for live capture.
+NETSCOPE is a network monitoring and analysis dashboard for inspecting traffic on interfaces you are authorized to monitor. It uses the locally installed Wireshark/TShark tools for live capture.
 
-This repository contains the project's downloadable reports and academic deliverables. The runnable application source code is maintained in the [NEXTRACE source repository](https://github.com/ShreyanshRaaJ/nextrace).
+This repository contains the project's downloadable reports and academic deliverables. The runnable application source code is maintained in the [NETSCOPE source repository](https://github.com/ShreyanshRaaJ/nextrace).
 
 ## Project documents
 
@@ -20,12 +20,12 @@ This repository contains the project's downloadable reports and academic deliver
 
 ## Run the application
 
-The code is in the [NEXTRACE source repository](https://github.com/ShreyanshRaaJ/nextrace). On Windows, install Python 3.10 or newer and Wireshark with TShark/Npcap, then follow the source repository's README and launch instructions. The app is designed to run locally at `http://127.0.0.1:5000`.
+The code is in the [NETSCOPE source repository](https://github.com/ShreyanshRaaJ/nextrace). On Windows, install Python 3.10 or newer and Wireshark with TShark/Npcap, then follow the source repository's README and launch instructions. The app is designed to run locally at `http://127.0.0.1:5000`.
 
 ## Responsible use and data handling
 
 - Capture only traffic you are authorized to inspect.
 - Live analysis uses packet metadata; the app does not retain packet payload bytes.
 - Demo traffic is synthetic and labeled as demo data; it is not live captured traffic.
-- Firewall information is read-only; NEXTRACE does not change system firewall rules.
+- Firewall information is read-only; NETSCOPE does not change system firewall rules.
 - The project does not perform credential interception, decryption, spoofing, or man-in-the-middle attacks.
